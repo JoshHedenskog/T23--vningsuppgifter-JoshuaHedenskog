@@ -44,7 +44,22 @@ if svar3 == 2:
     print ("rätt")
 else:
     print ("fel, dens smaknamn är: Dreamliner")
+
 print ("-")
+print ("Vilket flygbolag var den första att köpa 787?")
+print ("-")
+print ("val:")
+print ("1: ANA Japan")
+print ("2: Hawaiian Airlines")
+print ("3: American Airlines")
+print ("-")
+svar4 = int(input("Svar:"))
+print ("-")
+if svar4 == 1:
+    print ("rätt")
+else:
+    print ("fel, ANA var dom första.")
+
 if svar1 == 2:
     poäng1 = 1
 else:
@@ -59,20 +74,20 @@ if svar3 == 2:
     poäng3 = 1
 else:
     poäng3 = 0
-totalpoäng = poäng1 + poäng2 + poäng3 
-if totalpoäng == 3:
-    print ("Super! Du fick" , totalpoäng , "/ 3")
+if svar4 == 1:
+    poäng4 = 1
+else:
+    poäng4 = 0
+totalpoäng = poäng1 + poäng2 + poäng3 + poäng4
+if totalpoäng >= 3:
+    print ("Super! Du fick" , totalpoäng , "/ 4")
 if totalpoäng == 2:
-    print ("Bra jobbat! Du fick" , totalpoäng , "/ 3") 
+    print ("Bra jobbat! Du fick" , totalpoäng , "/ 4") 
 if totalpoäng == 1:
-    print ("Bra försök. Du fick" , totalpoäng , "/ 3")
+    print ("Bra försök. Du fick" , totalpoäng , "/ 4")
 if totalpoäng == 0:
-    print ("Du fick" , totalpoäng , "/ 3. Du har i alla fall lärt dig något.")
+    print ("Du fick" , totalpoäng , "/ 4. Du har i alla fall lärt dig något.")
 print ("-")
 print ("Tack så mycket för att du deltog i detta program")
-print ("-")
-print ("-")
-print ("-")
-print ("-")
 print ("-")
 print ("-")
