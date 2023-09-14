@@ -1,0 +1,11 @@
+print ("-\n-\nHej, Välkommer till TLs biljett automat!")
+print ("vi har dessa biljetter: ")
+print("-\nVuxen(18-65):") 
+print ("1: 75 minuter - 50 kr\n-")
+print ("2: 24h - 120 kr\n-")
+print ("3: 72h - 240 kr\n-")
+print("-\nBarn(0-17) och pensionär(65-110):") 
+print ("5: 75 minuter - 30 kr\n-")
+print ("6: 24h - 80 kr\n-")
+print ("7: 72h - 160 kr\n-\n-")
+
