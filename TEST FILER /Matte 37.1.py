@@ -5,5 +5,4 @@ z = y / 2
 while (y > z):
     x = x + 1
     y = y * å
-    
 print ("Efter" , x , "år kommer andtalet fåglar ha halverats")
